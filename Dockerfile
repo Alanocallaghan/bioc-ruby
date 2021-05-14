@@ -20,6 +20,7 @@ RUN apt-get install -y --no-install-recommends \
     texi2html \
     texinfo \
     python3 \
+    pandoc \
     ruby ruby-dev ruby-bundler build-essential \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
