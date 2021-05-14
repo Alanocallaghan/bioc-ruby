@@ -27,3 +27,5 @@ RUN apt-get install -y --no-install-recommends \
 RUN Rscript -e 'install.packages("BiocManager")'
 
 RUN Rscript -e 'BiocManager::install()'
+
+RUN gem install bundler
