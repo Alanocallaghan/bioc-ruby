@@ -19,6 +19,7 @@ RUN apt-get install -y --no-install-recommends \
     texlive-science \
     texi2html \
     texinfo \
+    python3 \
     ruby ruby-dev ruby-bundler build-essential \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
